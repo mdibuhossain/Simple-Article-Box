@@ -1,0 +1,93 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgba(245, 245, 245, 0.507);
+    font-family: 'Times New Roman', Times, serif;
+}
+
+hr {
+    border: 1px solid rgba(77, 77, 77, 0.192);
+}
+
+#vlog-page-title {
+    width: 50%;
+    margin: auto;
+    padding: 1%;
+    text-align: center;
+}
+
+#title-text {
+    width: 20%;
+    height: auto;
+    margin: auto;
+    text-align: center;
+    font-size: 40px;
+    font-weight: bolder;
+}
+
+#title-text-hyperlink {
+    text-decoration: none;
+}
+
+#title-text-portion {
+    color: orangered;
+}
+
+.vlog-post-section {
+    width: 100%;
+    text-align: center;
+}
+
+#post-one {
+    margin-right: 2%;
+}
+
+#post-two {
+    margin-left: 2%;
+}
+
+.vlog-content {
+    display: inline-block;
+    background-color: white;
+    border: 1px solid rgba(109, 109, 109, 0.205);
+    border-radius: 12px;
+    width: 35%;
+    margin: auto;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    text-align: center;
+}
+
+.vlog-title {
+    font-size: 20px;
+}
+
+.vlog-author {
+    font-size: 12px;
+    display: block;
+    margin-bottom: 1%;
+}
+
+.vlog-img {
+    display: block;
+    width: 100%;
+    margin: auto;
+    height: auto;
+    padding-top: 1%;
+}
+
+.vlog-img-fig {
+    font-weight: 500;
+    margin-bottom: 1%;
+    font-size: small;
+}
+
+.vlog-article {
+    width: 90%;
+    margin: auto;
+    padding: 0 5%;
+    text-align: justify;
+}
